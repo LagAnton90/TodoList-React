@@ -52,7 +52,7 @@ import React, {Component} from 'react';
         return(
           <div>
             <button className='addButton' onClick={this.addTodo.bind(null, "Solve life's mysteries")}>New todo item</button>
-            <p className = "quoteSection">“Because adult life is like that.." -Every adult</p>
+            <p className = "quoteSection">"Because adult life is like that.." '-Every adult'</p>
             <div className="TodoContainer">
               {this.state.todos.map(function(content, index){
                   return(<div className = "todoStyling"><Todo index = {index} key = {index} updateTodoContent ={updateTodoContent} removeTodo = {removeTodo}>{content}</Todo></div>)
@@ -63,7 +63,6 @@ import React, {Component} from 'react';
             </div>
 
           </div>
-
 
     );
 
@@ -107,7 +106,7 @@ class Todo extends React.Component {
       else{
         alert("Write something to be able to save changes.")
       }
-      
+
     }
 
     renderEditMode(){
