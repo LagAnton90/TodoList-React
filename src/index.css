@@ -1,0 +1,82 @@
+body {
+  padding: 100px;
+  background-color: whiteSmoke;
+  font-family: monospace;
+  font-size: 20px;
+}
+/* #EB593C*/
+.button {
+    background-color: #3CB371;
+    border: none;
+    color: white;
+    padding: 9px 14px;
+    margin-top: 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: monospace;
+    margin-bottom: 200px;
+}
+
+.buttonEdit {
+    background-color:#F39C12;
+    border: none;
+    color: white;
+    padding: 9px 14px;
+    margin-top: 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: monospace;
+    margin-bottom: 200px;
+}
+
+.buttonDivider{
+    width:20px;
+    height:20px;
+    display:inline-block;
+}
+
+
+#container {
+    text-align: center;
+}
+
+
+.addButton {
+    background-color: #EB593C;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+    color: white;
+    border-style: none;
+    font-weight: bold;
+    padding: 15px 32px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+
+.textArea {
+  position:relative;
+  top: 10px;
+  bottom: 30px;
+}
+
+.todoStyling{
+  background-color: white;
+  width: 280px;
+  height: 110px;
+  padding-top: 35px;
+  margin: 0 auto;
+  margin-top: 40px;
+  box-shadow: 0px 10px 3px #888888;
+}
+
+.quoteSection {
+  font-family: Palatino Linotype;
+}
